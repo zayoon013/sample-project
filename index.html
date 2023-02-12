@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="">
+    </head>
+    <body>
+        <h1>Welcome to </h1>
+        <div id="content">
+        <label>What's your name first name?
+            <input id="first-name" type="text">
+            </label>
+            <br>
+        </label>
+        <label>What's your name last name?
+            <input id="last-name" type="text">
+        </label>
+        <br>
+        <img src="https://www.kasandbox.org/programming-images/creatures/Winston.png">
+        <button id="button" type="button">Press the button to be welcomed</button>
+        <div id="message"               id="messags"></div>
+        
+            <input id="qwerty" type="text">
+        
+        <button><a href="">
+            Press the button to continue</button>
+        </div>
+        <script>
+            var button = document.getElementById("button");
+            var onButtonClick = function() {
+                var firstName = document.getElementById("first-name").value;
+                var lastName = document.getElementById("last-name").value
+                var greeting = "Hi, " + firstName + " " + lastName + " ";
+              document.getElementById("message").textContent += greeting;  
+            };
+            button.addEventListener("click", onButtonClick);
+            if (document.getElementById("qwerty")= wow ) {
+                var greetins = "You are the best"; 
+                document.getElementById("messags").textContent += greetins; 
+            }
+            </script>
+    </body>
+</html>
